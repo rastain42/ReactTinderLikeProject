@@ -20,3 +20,31 @@ les utilisateurs qui matchent peuvent s'envoyer des messages
 - Front, interface en réact
 
 - API en ruby onrails
+
+## roadmap
+
+### coté api
+
+1. Initialisation de l'api avec système d'auth
+
+2. intégration de l'inscription : photos, informations
+
+3. route "actualisation du menu" : l'api renvoie les profils recommandés à l'app
+
+4. route "je like" : quand l'utilisateur like
+
+5. route modification du profil
+
+6. chat : à spécifier
+
+### coté front
+
+1. créer les vues pour l'inscription et la connexion
+
+2. créer la vue du profil
+
+3. '' vue de la homepage avec possibilité d'afficher et de swipp
+
+4. '' vue modification du profil
+
+5. vue du chat
