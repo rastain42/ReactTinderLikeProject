@@ -29,7 +29,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
   
 
   const getUsers = async () => {
-    const result = await  axios.get('https://bfff-2a01-cb19-7b8-9700-b097-e108-db3d-2c13.ngrok.io' + '/users/')
+    const result = await  axios.get('https://8ec2-77-196-149-138.eu.ngrok.io' + '/users/')
     result.data.map((user: any) => {
     })
   
@@ -44,7 +44,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
     }, [2]);
 
     const match = async (userId: string) => {
-      const result = await  axios.post('https://bfff-2a01-cb19-7b8-9700-b097-e108-db3d-2c13.ngrok.io' + '/meets/', {
+      const result = await  axios.post('https://8ec2-77-196-149-138.eu.ngrok.io' + '/meets/', {
           "usersIds": ["2b2509d9-1cb3-42b3-bffe-2a000b4ef6a2", userId]
       })
       if(result.data.matched == true) {

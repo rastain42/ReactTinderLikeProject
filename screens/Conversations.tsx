@@ -17,7 +17,7 @@ export default function ConversationScreen({navigation}) {
   const user = useSelector((state) => state.user.value);
 
   const getConversations = async () => {
-    const conversations = await axios.get('https://bfff-2a01-cb19-7b8-9700-b097-e108-db3d-2c13.ngrok.io' + '/users/' + "2b2509d9-1cb3-42b3-bffe-2a000b4ef6a2"+ '/conversations')
+    const conversations = await axios.get('https://8ec2-77-196-149-138.eu.ngrok.io' + '/users/' + "2b2509d9-1cb3-42b3-bffe-2a000b4ef6a2"+ '/conversations')
     setConversations(conversations.data)
  
 }

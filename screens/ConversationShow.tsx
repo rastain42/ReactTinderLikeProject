@@ -42,7 +42,7 @@ export default function ConversationShowScreen({route }) {
       "conversationId": "string",
       "additionalProp1": {}
     }
-    const conversations = await axios.post('https://bfff-2a01-cb19-7b8-9700-b097-e108-db3d-2c13.ngrok.io' + '/conversations/' +conversation.id + '/messages')
+    const conversations = await axios.post('https://8ec2-77-196-149-138.eu.ngrok.io' + '/conversations/' +conversation.id + '/messages')
 
   }
  
